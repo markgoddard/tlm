@@ -1,0 +1,49 @@
+///////////////////////////////////////////////////////////////////////////////////////
+
+// Scene parsing
+scene_filename = ../SceneFiles/FreeSpace.txt
+display_polygons = false
+grid_spacing = 1
+
+///////////////////////////////////////////////////////////////////////////////////////
+
+// Algorithm information
+
+// Source information
+source_type = impulse
+source_duration = 1
+source_position_x = 60
+source_position_y = 60
+source_position_z = 60
+
+// Thresholds
+absolute_threshold = 1E-3
+relative_threshold = 1E-1
+
+// Operating frequency
+frequency = 1E9
+
+/////////////////////////////////////////////////////////////////////////////////////////
+
+// Information output 
+
+// Output file
+output_filename = ../OutputFiles/Input2/Impedances.txt
+
+// Path loss output
+print_peak_values = false
+path_loss_filename = ../OutputFiles/Input2/PL.txt
+
+// Time variation output
+time_variation_filename = ../OutputFiles/Input2/TV.txt
+print_time_variation = true
+
+// Printing results
+print_initial_layout = false
+print_each_iteration = false
+
+// Algorithm Timing
+timing_filename = ../OutputFiles/Input2/Timing.txt
+store_timing = true
+
+///////////////////////////////////////////////////////////////////////////////

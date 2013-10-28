@@ -1,0 +1,5 @@
+Timing information for scene file '../SceneFiles/FreeSpace.txt'
+Wed Dec 03 16:20:57 2008
+
+Scene parsing time = 1734ms
+Algorithm time = 4918968ms

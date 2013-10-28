@@ -1,0 +1,9 @@
+Event based TLM
+Project: LargeOffice_verification
+Tue Feb 03 23:59:34 2009
+
+
+Timing information for scene file '../SceneFiles/LargeOffice.txt'
+TotalTime = 3392375ms
+Scene parsing time = 1062ms
+Algorithm time = 3391093ms

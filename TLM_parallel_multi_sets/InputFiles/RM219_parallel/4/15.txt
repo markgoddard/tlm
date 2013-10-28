@@ -1,0 +1,74 @@
+///////////////////////////////////////////////////////////////////////////////////////
+
+// Project details
+project_name = RM219_parallel_140_1e-5
+folder_name = ../OutputFiles/RM219_parallel
+
+///////////////////////////////////////////////////////////////////////////////////////
+
+// Scene parsing
+scene_filename = ../SceneFiles/RM219.txt
+display_polygons = false
+grid_spacing = 0.1
+
+///////////////////////////////////////////////////////////////////////////////////////
+
+// Algorithm information
+
+// Source information
+source_type = impulse
+source_duration = 1
+source_position_x = 1.5
+source_position_y = 3
+source_position_z = 1
+
+// Thresholds
+max_path_loss = -140
+relative_threshold = 1E-5
+
+// Operating frequency
+frequency = 2.14E9
+
+// Number of threads
+threads = 2
+
+// number of active sets
+active_sets = 4
+
+/////////////////////////////////////////////////////////////////////////////////////////
+
+// Information output 
+
+// Output file
+output_filename = Impedance.txt
+
+// printing peak values to the screen
+print_peak_values = false
+
+// Path loss output
+output_path_loss = cube
+pl_x1 = 5
+pl_y1 = 2
+pl_x2 = 16
+pl_y2 = 11.5
+pl_z1 = 0.5
+pl_z2 = 1.5
+pl_spacing_x = 1
+pl_spacing_y = 1
+pl_spacing_z = 0.5
+
+path_loss_filename = PL.txt
+
+
+// Time variation output
+print_time_variation = false
+
+// Printing results
+print_initial_layout = false
+print_each_iteration = false
+
+// Algorithm Timing
+store_timing = true
+timing_filename = Timing.txt
+
+/////////////////////////////////////////////////////////////////////////////////////////

@@ -1,0 +1,9 @@
+Event based TLM
+Project: KappaDirectional
+Thu Dec 04 16:18:32 2008
+
+
+Timing information for scene file '../SceneFiles/FreeSpace.txt'
+TotalTime = 8382625ms
+Scene parsing time = 1031ms
+Algorithm time = 8381359ms

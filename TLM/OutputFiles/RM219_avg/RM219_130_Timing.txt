@@ -1,0 +1,9 @@
+Event based TLM
+Project: RM219_130
+Fri Feb 13 22:17:28 2009
+
+
+Timing information for scene file '../SceneFiles/RM219.txt'
+TotalTime = 791078ms
+Scene parsing time = 468ms
+Algorithm time = 790594ms

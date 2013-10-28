@@ -1,0 +1,71 @@
+///////////////////////////////////////////////////////////////////////////////////////
+
+// Project details
+project_name = LargeOffice_threads_16
+folder_name = ../OutputFiles/LargeOffice_threads
+
+///////////////////////////////////////////////////////////////////////////////////////
+
+// Scene parsing
+scene_filename = ../SceneFiles/LargeOffice.txt
+display_polygons = false
+grid_spacing = 0.1
+
+///////////////////////////////////////////////////////////////////////////////////////
+
+// Algorithm information
+
+// Source information
+source_type = impulse
+source_duration = 1
+source_position_x = 15
+source_position_y = 10
+source_position_z = 1.5
+
+// Thresholds
+maximum_path_loss = 140
+relative_threshold = 1E-3
+
+// Operating frequency
+frequency = 2.14E9
+
+// Number of threads
+threads = 16
+
+/////////////////////////////////////////////////////////////////////////////////////////
+
+// Information output 
+
+// Output file
+output_filename = Impedance.txt
+
+// printing peak values to the screen
+print_peak_values = false
+
+// Path loss output
+output_path_loss = cube
+pl_x1 = 1
+pl_y1 = 1
+pl_x2 = 29
+pl_y2 = 19
+pl_z1 = 0.5
+pl_z2 = 1.5
+pl_spacing_x = 1
+pl_spacing_y = 1
+pl_spacing_z = 0.5
+
+path_loss_filename = PL.txt
+
+
+// Time variation output
+print_time_variation = false
+
+// Printing results
+print_initial_layout = false
+print_each_iteration = false
+
+// Algorithm Timing
+store_timing = true
+timing_filename = Timing.txt
+
+/////////////////////////////////////////////////////////////////////////////////////////

@@ -1,0 +1,9 @@
+Event based TLM
+Project: PathLossCheck
+Fri Dec 05 20:42:15 2008
+
+
+Timing information for scene file '../SceneFiles/FreeSpace.txt'
+TotalTime = 738631ms
+Scene parsing time = 1062ms
+Algorithm time = 737350ms

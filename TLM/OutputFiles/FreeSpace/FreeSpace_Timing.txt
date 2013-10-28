@@ -1,0 +1,9 @@
+Event based TLM
+Project: FreeSpace
+Sun Apr 12 15:57:50 2009
+
+
+Timing information for scene file '../SceneFiles/FreeSpace.txt'
+TotalTime = 2390906ms
+Scene parsing time = 52781ms
+Algorithm time = 2336672ms

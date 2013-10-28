@@ -1,0 +1,9 @@
+Event based TLM
+Project: StandardPLOutput
+Wed Jan 21 16:29:02 2009
+
+
+Timing information for scene file '../SceneFiles/FreeSpace.txt'
+TotalTime = 113859ms
+Scene parsing time = 984ms
+Algorithm time = 112843ms
